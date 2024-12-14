@@ -1,101 +1,111 @@
-import Image from "next/image";
+import Image from 'next/image'
+import Navbar from './components/navbar'
+import ContactForm from './components/contact-form'
+import InteractiveButton from './components/interactive-button'
+import Footer from './components/footer'
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="min-h-screen bg-simpson-bg">
+      <Navbar />
+      
+      {/* Hero Section */}
+      <section className="relative h-[70vh] flex items-center justify-center bg-simpson-hero">
+        <div className="absolute inset-0">
+          <Image
+            src="/placeholder.svg?height=1080&width=1920"
+            alt="Calming background"
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
+          <h1 className="text-5xl md:text-6xl font-serif text-simpson-blue mb-6">
+            Simpson Counseling Co. 
+          </h1>
+          <p className="text-xl md:text-2xl text-simpson-blue-light mb-8 font-light">
+          Come as you are, wherever you are in your journey—this space is yours.          </p>
+          <InteractiveButton />
+        </div>
+      </section>
+
+      {/* Welcome Section */}
+      <section className="py-10 bg-white">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+        
+          <div className="grid md:grid-cols-3 gap-8 mt-12">
+            <div className="p-6 bg-simpson-bg rounded-lg">
+              <h3 className="text-xl font-serif text-simpson-blue mb-4">Free Consultation</h3>
+              <p className="text-simpson-blue-light">Free 15 minute phone conversation to see if we are a good fit.</p>
+            </div>
+            <div className="p-6 bg-simpson-bg rounded-lg">
+              <h3 className="text-xl font-serif text-simpson-blue mb-4">Individual Sessions</h3>
+              <p className="text-simpson-blue-light">Personalized support for your individual growth and healing journey.</p>
+            </div>
+            <div className="p-6 bg-simpson-bg rounded-lg">
+              <h3 className="text-xl font-serif text-simpson-blue mb-4">Ecotherapy</h3>
+              <p className="text-simpson-blue-light"> Integrate the healing power of nature to promote emotional well-being and reduce stress. Let's get outside</p>
+            </div>
+          </div>
+          <p className=" mt-10 text-lg text-simpson-blue-light leading-relaxed mb-8">
+           I believe growth begins when you feel truly seen and understood, free from judgment or pressure to have everything figured out. My goal is to offer a safe, affirming environment where you can explore your challenges, strengths, and goals at a pace that feels right for you. 
+          </p>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-20 bg-simpson-hero">
+        <div className="max-w-4xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <Image
+              src="/howareyou.jpg"
+              alt="Thanks Instagram: @finnnyc"
+              width={500}
+              height={500}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+          <div>
+            <h2 className="text-3xl font-serif text-simpson-blue mb-6">Your Path to Growth</h2>
+            <p className="text-lg text-simpson-blue-light leading-relaxed mb-6">
+              We understand that seeking therapy is a significant step. Our experienced 
+              therapists are here to provide compassionate support and evidence-based 
+              treatment approaches tailored to your needs.
+            </p>
+            <InteractiveButton variant="outline" />
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact-form" className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-serif text-simpson-blue mb-6 text-center">
+            Begin Your Healing Journey
+          </h2>
+          <p className="text-lg text-simpson-blue-light text-center mb-12">
+            Take the first step towards positive change. Contact us to schedule your consultation.
+          </p>
+          <ContactForm />
+        </div>
+      </section>
+
+      {/* Footer */}
+      {/* <div className="bg-simpson-blue text-white py-12">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h3 className="text-2xl font-serif mb-4">Simpson Counseling Co</h3>
+          <p className="mb-6">Creating space for healing and growth</p>
+          <div className="text-sm opacity-80">
+            © {new Date().getFullYear()} Simpson Counseling Co. All rights reserved.
+          </div>
+        </div>
+      </div> */}
+  
+      <Footer />
+
+
     </div>
-  );
+    
+  )
 }
