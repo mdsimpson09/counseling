@@ -26,7 +26,7 @@ export default function ServicesPage() {
           <p className="text-xl text-white font-light">
           "Do the best you can until you know better. Then when you know better, do better."
           </p>
-          <p className="text-xl text-simpson-blue-light font-light">
+          <p className="text-xl  font-light text-white">
           - Maya Angelou
           </p>
         </div>
