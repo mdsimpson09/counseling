@@ -39,7 +39,7 @@ export default function ServicesPage() {
           <SpecialtyItem
             title="Free Consultation"
             description="A no-cost, 15-minute consultation to discuss your needs, answer questions, and determine if we’re the right fit for your journey."
-            imageSrc="/priscilla-du-preez.jpg" // Replace with your image
+            imageSrc="/paul-hanaoka.jpg" // Replace with your image
             reverse={false}
           />
           <SpecialtyItem
