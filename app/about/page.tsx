@@ -31,7 +31,7 @@ export default function AboutPage() {
             Marli Simpson, LPC-MHSP, CPC
           </h1>
           <p className="text-lg md:text-xl text-white font-light">
-            "Like Bob Marley, but not spelled the same"
+          &quot;Like Bob Marley, but not spelled the same&quot;
           </p>
           <p className="text-lg md:text-xl font-light text-white">
             - Me
@@ -125,7 +125,7 @@ export default function AboutPage() {
                         </p>
                         <br />
                         <p>
-                          I&apos;m an avid gamer - the Mass Effect trilogy holds a special place in my heart. Jiu-jitsu is another passion of mine—I enjoy training with friends across the country and in other parts of the world. 
+                        I&apos;m an avid gamer - the Mass Effect trilogy holds a special place in my heart. Jiu-jitsu is another passion of mine—I enjoy training with friends across the country and in other parts of the world. 
                         </p>
                         <br />
                         <p>
