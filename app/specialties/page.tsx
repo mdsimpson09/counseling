@@ -95,20 +95,30 @@ Whether you&apos;re in the early stages of recovery or have been navigating it f
 
             <div className="grid md:grid-cols-2 gap-12">
               <TherapyMethod
-                title="EMDR + Brainspotting"
-                description="EMDR (Eye Movement Desensitization and Reprocessing) and Brainspotting (BSP) can be used to process unhealed trauma in your brain. Using bilateral stimulation (such as sounds or eye movements), your brain is guided through distressing physical sensations and given a path towards healing. When you fully heal, you are able to recall previously distressing memories without overwhelming emotions, negative feelings towards self, or intense physical responses. EMDR and BSP are extensively researched and proven to be an effective treatment for trauma, anxiety, and PTSD."
+                title="CBT"
+                description="When navigating emotional challenges, it can be helpful to understand how your thoughts influence your feelings and behaviors. Cognitive Behavioral Therapy (CBT) is a proven, evidence-based approach that emphasizes the connection between these three areas. Together, we identify and challenge unhelpful thought patterns, replacing them with more balanced and constructive perspectives. This approach is especially effective in addressing anxiety, depression, and a range of mood disorders, fostering greater emotional well-being."
               />
               <TherapyMethod
                 title="ACT"
-                description="Expending energy on things you cannot control leaves you feeling emotionally and mentally exhausted. Using ACT (Acceptance and Commitment Therapy), we identify how unhelpful thinking styles may be convincing you to stay in old patterns of behavior that may have been protective in the past but are no longer serving you. You can discover acceptance for things outside of your control and take meaningful action on things you are capable of changing."
+                description="Focusing on things beyond your control can drain your emotional and mental energy. Through Acceptance and Commitment Therapy (ACT), we work together to uncover unhelpful thought patterns that may be keeping you stuck in behaviors that once served you but no longer align with your goals. ACT helps you cultivate acceptance for what lies outside your influence while empowering you to take meaningful steps toward positive change in areas you can impact."
               />
               <TherapyMethod
-                title="CBT"
-                description="Cognitive Behavioral Therapy (CBT) is a widely used and evidence-based approach that focuses on the interconnection between thoughts, feelings, and behaviors. By identifying and challenging negative thought patterns, we work together to develop more balanced and realistic perspectives. This method is particularly effective for managing anxiety, depression, and various mood disorders."
+                title="TF-CBT"
+                description="Trauma can deeply impact the way we think, feel, and interact with the world, often leaving us feeling stuck in distressing patterns. Trauma-Focused Cognitive Behavioral Therapy (TF-CBT) is an evidence-based approach designed to help individuals process and heal from trauma. It combines trauma-sensitive techniques with cognitive-behavioral strategies to address unhelpful thought patterns, reduce distress, and build emotional regulation skills. TF-CBT is particularly effective for children, adolescents, and their caregivers, offering a structured yet flexible framework to navigate recovery and rebuild a sense of safety."
               />
               <TherapyMethod
-                title="Mindfulness-Based Therapy"
-                description="Incorporating mindfulness techniques into therapy helps you develop greater awareness of your thoughts and emotions without judgment. This approach can reduce stress, improve focus, and enhance overall well-being. We use various mindfulness practices to help you stay grounded in the present moment and develop a more compassionate relationship with yourself."
+                title="Narrative Therapy"
+                description="
+               The stories we tell ourselves about our experiences shape how we see ourselves and the world around us. Narrative Therapy empowers individuals to rewrite their stories, focusing on their strengths and resilience rather than solely on the trauma. By externalizing problems and exploring alternative narratives, this approach helps clients separate their identity from their experiences. Through collaborative storytelling, clients gain greater clarity, control, and meaning in their lives, enabling them to move forward with confidence and self-compassion."
+                  />
+                  <TherapyMethod
+                  title="DBT"
+                  description="When emotions feel overwhelming and difficult to manage, having practical tools can make a meaningful difference. Dialectical Behavior Therapy (DBT) is an evidence-based approach that combines mindfulness with skills for emotional regulation, distress tolerance, and interpersonal effectiveness. In DBT-focused sessions, we work together to develop healthier coping strategies, build emotional resilience, and navigate challenging situations with greater confidence and balance."
+                />
+                <TherapyMethod
+                  title="IFS"
+                  description="
+                    Healing often requires understanding the inner dynamics that influence your thoughts, feelings, and behaviors. In IFS-focused therapy sessions, we explore the different parts of you—each with its own emotions, roles, and perspectives—to better understand your inner experiences. Together, we build a connection with your core Self, a place of calm, curiosity, and compassion, to guide the healing process. These sessions create space to release burdens carried by wounded parts and restore balance, helping you feel more integrated and aligned with your true self."
               />
             </div>
           </div>

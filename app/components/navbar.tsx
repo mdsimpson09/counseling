@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link href="/" className="font-serif text-2xl text-[#2c4a63]">
-              Simpson Counseling Co.
+              Simpson Counseling
             </Link>
           </div>
 
