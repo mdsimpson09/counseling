@@ -40,7 +40,7 @@ export default function AboutPage() {
       </section>
 
       <main className="flex-grow pt-12 md:pt-20 bg-[#F5F2EF]">
-        <div className="max-w-5xl mx-auto px-4 py-8 bg-white rounded-lg shadow-lg">
+        <div className="max-w-5xl mx-auto px-4 py-8 bg-white rounded-lg shadow-lg -mt-16">
           <h1 className="text-3xl md:text-4xl font-serif text-simpson-blue mb-6 text-center"></h1>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="flex justify-center md:justify-start">
