@@ -13,6 +13,11 @@ export default function PricingPage() {
           </p>
           <div className="space-y-8">
             <PricingItem
+              service="Phone Consultation"
+              price="Free"
+              duration="15 minutes"
+            />
+               <PricingItem
               service="Individual Therapy"
               price="$120"
               duration="45-50 minutes"
