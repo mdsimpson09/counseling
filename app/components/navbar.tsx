@@ -23,7 +23,7 @@ const Navbar = () => {
             <NavLink href="/services">Services</NavLink>
             <NavLink href="/specialties">Specialties</NavLink>
             <NavLink href="/about">About</NavLink>
-            <NavLink href="/pricing">Pricing</NavLink>
+            {/* <NavLink href="/pricing">Pricing</NavLink> */}
             <NavLink href="/faq">FAQs</NavLink>
             <Button 
               className="bg-[#91a5b9] hover:bg-[#7b8fa3] text-white"
