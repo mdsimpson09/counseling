@@ -111,7 +111,7 @@ export default function AboutPage() {
                         </p>
                         <br />
                         <p>
-                          I have a diverse clinical background, having worked in a variety of settings including community mental health, domestic violence shelters, Davidson County jails, inpatient residential treatment centers for women/children, inpatient admissions for teens and adults, and more recently group practice. 
+                        I have a diverse clinical background, having worked in a variety of settings including community mental health, corrections, inpatient residential treatment centers for women and children, inpatient admissions for teens and adults, and, more recently, group practice.
                         </p>
                       </>
                     ),
