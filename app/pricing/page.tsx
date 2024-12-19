@@ -9,32 +9,18 @@ export default function PricingPage() {
         <div className="max-w-4xl mx-auto px-4 py-8">
           <h1 className="text-4xl font-serif text-simpson-blue mb-6">Pricing</h1>
           <p className="text-lg text-simpson-blue-light mb-8">
-            We strive to provide transparent pricing for our services. Please note that we offer a sliding scale for those experiencing financial hardship.
+            I strive to provide transparent pricing. Please note that a sliding scale for those experiencing financial hardship may be an option.
           </p>
           <div className="space-y-8">
             <PricingItem
               service="Individual Therapy"
               price="$120"
-              duration="50 minutes"
+              duration="45-50 minutes"
             />
-            <PricingItem
-              service="Couples Counseling"
-              price="$150"
-              duration="60 minutes"
-            />
-            <PricingItem
-              service="Family Therapy"
-              price="$180"
-              duration="75 minutes"
-            />
-            <PricingItem
-              service="Group Therapy"
-              price="$60"
-              duration="90 minutes"
-            />
+       
           </div>
           <p className="mt-8 text-simpson-blue-light">
-            We accept various insurance plans. Please contact us to verify your coverage.
+            Various insurance plans. Please contact us to verify your coverage.
           </p>
         </div>
       </main>
