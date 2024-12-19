@@ -76,7 +76,8 @@ export default function AboutPage() {
                     content: (
                       <>
                         <p>
-                          I was born and raised in Indianapolis and moved to Muncie Indiana for undergraduate and graduate studies. I made my way to Nashville after applying for a random, but interesting job, and decided to give it a shot. It wasn't long before Nashville and the community stole my heart. I often claim that I am a "Nashvillian" when introducing myself for the first time!
+                    ),
+                          I was born and raised in Indianapolis and moved to Muncie Indiana for undergraduate and graduate studies. I made my way to Nashville after applying for a random, but interesting job, and decided to give it a shot. It wasn&apos;t long before Nashville and the community stole my heart. I often claim that I am a &quot;Nashvillian&quot; when introducing myself for the first time!
                         </p>
                         <br />
                         <p>
@@ -120,11 +121,11 @@ export default function AboutPage() {
                     content: (
                       <>
                         <p>
-                          I'm all about adventure and connection. Traveling is one of my greatest joys—whether I'm exploring new corners of the U.S. or venturing to far-off countries, I love meeting people, diving into new cultures, and sampling every kind of food I can find.
+                          I&apos;m all about adventure and connection. Traveling is one of my greatest joys—whether I&apos;m exploring new corners of the U.S. or venturing to far-off countries, I love meeting people, diving into new cultures, and sampling every kind of food I can find.
                         </p>
                         <br />
                         <p>
-                          I'm an avid gamer - the Mass Effect trilogy holds a special place in my heart. Jiu-jitsu is another passion of mine—I enjoy training with friends across the country and in other parts of the world. 
+                          I&apos;m an avid gamer - the Mass Effect trilogy holds a special place in my heart. Jiu-jitsu is another passion of mine—I enjoy training with friends across the country and in other parts of the world. 
                         </p>
                         <br />
                         <p>

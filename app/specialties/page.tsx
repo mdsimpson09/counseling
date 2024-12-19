@@ -24,7 +24,7 @@ export default function SpecialtiesPage() {
               Specialties
             </h1>
             <p className="text-xl text-white/90 font-light">
-              "Your job is to feel and be moved by your feelings, and to let that movement move you into action."
+            &quot;Your job is to feel and be moved by your feelings, and to let that movement move you into action.&quot;
             </p>
             <p className="text-xl text-white/90 font-light mt-2">
               - Glennon Doyle
@@ -41,7 +41,7 @@ export default function SpecialtiesPage() {
           <div>
             <SpecialtyArea
               title="LGBTQIA+"
-              description="I strive to create a safe and inclusive space for LGBTQIA+ individuals and allies. It is my privilege to support you through life’s stressors, identity and sexual exploration, processing experiences of discrimination or rejection, and navigating relationships. I also offer gender-affirming healthcare assessments and letters when needed. Every part of you is welcome here, and I am honored to celebrate your resilience and growth as you reconnect with your authentic self."
+              description="I strive to create a safe and inclusive space for LGBTQIA+ individuals and allies. It is my privilege to support you through life&apos;s stressors, identity and sexual exploration, processing experiences of discrimination or rejection, and navigating relationships. I also offer gender-affirming healthcare assessments and letters when needed. Every part of you is welcome here, and I am honored to celebrate your resilience and growth as you reconnect with your authentic self."
             />
             <br />
             <SpecialtyArea
@@ -51,7 +51,7 @@ export default function SpecialtiesPage() {
             <br />
             <SpecialtyArea
               title="Anxiety and Mood"
-              description="Managing the ups and downs of mood dysregulation can be overwhelming, and it’s not something you can simply think your way out of. Whether you're navigating anxiety, depression, or a bipolar diagnosis, we work together to identify unhelpful thinking patterns, improve emotional regulation, and build acceptance for what lies outside your control."
+              description="Managing the ups and downs of mood dysregulation can be overwhelming, and it&apos;s not something you can simply think your way out of. Whether you&apos;re navigating anxiety, depression, or a bipolar diagnosis, we work together to identify unhelpful thinking patterns, improve emotional regulation, and build acceptance for what lies outside your control."
             />
             {/* <br />
             <SpecialtyArea
@@ -64,7 +64,7 @@ export default function SpecialtiesPage() {
               description={
                 <>
                   <p>
-                    Neurodiversity is a broad term that encompasses the various ways people's brains function. Each brain is unique, and no two work exactly the same. Being neurodivergent means having a brain that operates differently from what is considered typical or neurotypical. While neurodivergence is not inherently negative, it can bring significant challenges and frustrations. It may feel as though everyone else has access to an unspoken rulebook for socializing and interacting that you were never given.
+                    Neurodiversity is a broad term that encompasses the various ways people&apos;s brains function. Each brain is unique, and no two work exactly the same. Being neurodivergent means having a brain that operates differently from what is considered typical or neurotypical. While neurodivergence is not inherently negative, it can bring significant challenges and frustrations. It may feel as though everyone else has access to an unspoken rulebook for socializing and interacting that you were never given.
                   </p>
                   <p className="mt-4">
                     Through neurodivergent-affirming care, we focus on your strengths while addressing the unique challenges of navigating a world designed for neurotypical individuals. Therapy can support you in improving communication with yourself and others, all while embracing and celebrating your differences.
@@ -76,7 +76,7 @@ export default function SpecialtiesPage() {
             <SpecialtyArea
               title="Recovery"
               description="
-Whether you're in the early stages of recovery or have been navigating it for some time, we will work together to address substance use and other addictive behaviors. Together, we’ll focus on understanding what drives these behaviors, creating tools to manage challenges, and building a personalized plan to maintain stability and prevent or navigate relapse"
+Whether you&apos;re in the early stages of recovery or have been navigating it for some time, we will work together to address substance use and other addictive behaviors. Together, we&apos;ll focus on understanding what drives these behaviors, creating tools to manage challenges, and building a personalized plan to maintain stability and prevent or navigate relapse"
             />
             <br />
             <SpecialtyArea

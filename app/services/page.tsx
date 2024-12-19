@@ -24,7 +24,7 @@ export default function ServicesPage() {
             Services
           </h1>
           <p className="text-xl text-white font-light">
-          "Do the best you can until you know better. Then when you know better, do better."
+          &quot;Do the best you can until you know better. Then when you know better, do better.&quot;
           </p>
           <p className="text-xl  font-light text-white">
           - Maya Angelou

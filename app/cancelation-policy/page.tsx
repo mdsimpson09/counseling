@@ -14,13 +14,13 @@ export default function CancelationPolicyPage() {
             </p>
             <ul className="list-disc list-inside space-y-2 text-simpson-blue-light mb-4">
               <li>Please provide at least 24 hours notice if you need to cancel or reschedule your appointment.</li>
-              <li>Cancelations made with less than 24 hours notice will be subject to a fee of 50% of the session cost.</li>
+              <li>If you are unable to provide a 24 hour notice of your cancellation, you will be charged the full session fee. </li>
               <li>
-No-shows (failing to attend without notice) will be charged the full session fee.</li>
-              <li>Exceptions may be made for genuine emergencies, at the discretion of your therapist.</li>
+              This is also the case for any missed appointments (no-show). Late cancellation and no show fee will be charged to the payment method saved in your account.</li>
+              <li>Note that insurance companies do not reimburse for missed or late cancellation sessions.</li>
             </ul>
             <p className="text-lg text-simpson-blue-light">
-              We appreciate your understanding and cooperation with this policy. If you have any questions or concerns, please don't hesitate to discuss them with your therapist.
+              I appreciate your understanding and cooperation with this policy. If you have any questions or concerns, please don&apos;t hesitate reach out with questions or concerns.
             </p>
           </div>
         </div>

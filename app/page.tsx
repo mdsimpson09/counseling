@@ -45,7 +45,7 @@ export default function Home() {
             </div>
             <div className="p-6 bg-simpson-bg rounded-lg">
               <h3 className="text-xl font-serif text-simpson-blue mb-4">Ecotherapy</h3>
-              <p className="text-simpson-blue-light"> Integrate the healing power of nature to promote emotional well-being and reduce stress. Let's get outside</p>
+              <p className="text-simpson-blue-light"> Integrate the healing power of nature to promote emotional well-being and reduce stress. Let&apos;s get outside</p>
             </div>
           </div>
           <p className=" mt-10 text-lg text-simpson-blue-light leading-relaxed mb-8">
