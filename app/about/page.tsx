@@ -76,7 +76,7 @@ export default function AboutPage() {
                     content: (
                       <>
                         <p>
-                    ),
+                    
                           I was born and raised in Indianapolis and moved to Muncie Indiana for undergraduate and graduate studies. I made my way to Nashville after applying for a random, but interesting job, and decided to give it a shot. It wasn&apos;t long before Nashville and the community stole my heart. I often claim that I am a &quot;Nashvillian&quot; when introducing myself for the first time!
                         </p>
                         <br />
