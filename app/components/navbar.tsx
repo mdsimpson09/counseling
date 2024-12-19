@@ -25,12 +25,20 @@ const Navbar = () => {
             <NavLink href="/about">About</NavLink>
             {/* <NavLink href="/pricing">Pricing</NavLink> */}
             <NavLink href="/faq">FAQs</NavLink>
-            <Button 
-              className="bg-[#91a5b9] hover:bg-[#7b8fa3] text-white"
-              onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Contact Me
-            </Button>
+            <Button
+            className="bg-[#1C3142] hover:bg-[#7b8fa3] text-white"
+              onClick={() => {
+                if (window.location.pathname === "/") {
+                   // User is already on the landing page, scroll to the contact form
+                   document.getElementById("contact-form")?.scrollIntoView({ behavior: "smooth" });
+                } else {
+                  // Redirect to the landing page and scroll to the contact form
+                   window.location.href = "/#contact-form";
+                   }
+                 }}
+                >
+                Contact Me
+              </Button>
           </div>
 
           {/* Mobile menu button */}

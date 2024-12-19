@@ -69,9 +69,7 @@ export default function Home() {
           <div>
             <h2 className="text-3xl font-serif text-simpson-blue mb-6">Your Path to Growth</h2>
             <p className="text-lg text-simpson-blue-light leading-relaxed mb-6">
-              We understand that seeking therapy is a significant step. Our experienced 
-              therapists are here to provide compassionate support and evidence-based 
-              treatment approaches tailored to your needs.
+            Taking the step to seek therapy is an act of courage and self-investment. I’m here to offer compassionate, results-driven support with evidence-based approaches designed to empower your growth and help you thrive.
             </p>
             <InteractiveButton variant="outline" />
           </div>
@@ -85,7 +83,7 @@ export default function Home() {
             Begin Your Healing Journey
           </h2>
           <p className="text-lg text-simpson-blue-light text-center mb-12">
-            Take the first step towards positive change. Contact us to schedule your consultation.
+            Take the first step towards positive change. 
           </p>
           <ContactForm />
         </div>

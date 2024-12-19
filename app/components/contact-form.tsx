@@ -246,7 +246,7 @@ const ContactForm = () => {
       <Button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-[#91a5b9] hover:bg-[#7b8fa3] text-white py-6 text-lg"
+        className="w-full bg-[#1C3142] hover:bg-[#7b8fa3] text-white py-6 text-lg"
       >
         {isSubmitting ? 'Submitting...' : 'Schedule Your Consultation'}
       </Button>
