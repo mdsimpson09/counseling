@@ -119,7 +119,7 @@ export default function Home() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative h-[70vh] flex items-center justify-center bg-[#1C3142]">
+      <section className="relative h-[70vh] flex items-center justify-center bg-[#254257]">
         <div className="absolute inset-0">
           <Image
             src="/placeholder.svg?height=1080&width=1920"
@@ -136,7 +136,7 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light">
             Wherever you are in your journey, this space is yours to heal and grow.
           </p>
-          <InteractiveButton />
+          <InteractiveButton className="bg-simpson-blue-light"/>
         </div>
       </section>
 

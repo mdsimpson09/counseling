@@ -29,6 +29,7 @@ import { Button } from "@/components/ui/button";
 
 interface InteractiveButtonProps {
   variant?: 'default' | 'outline';
+  className?: string;
   label?: string; // Add a label prop for button text
   href?: string; // Add an optional href prop for navigation
 }
