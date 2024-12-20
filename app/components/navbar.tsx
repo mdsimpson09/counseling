@@ -63,7 +63,7 @@ const Navbar = () => {
             <MobileNavLink href="/about">About</MobileNavLink>
             <MobileNavLink href="/faq">FAQs</MobileNavLink>
             <MobileNavLink href="https://provider.growtherapy.com/provider/iku5bme8fc2h/marli-simpson">Schedule Appointment</MobileNavLink>
-            <Button 
+            {/* <Button 
               className="w-full bg-[#91a5b9] hover:bg-[#7b8fa3] text-white mt-4"
               onClick={() => {
                 document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })
@@ -71,7 +71,21 @@ const Navbar = () => {
               }}
             >
               Contact Me
-            </Button>
+            </Button> */}
+              <Button
+            className="bg-[#1C3142] hover:bg-[#7b8fa3] text-white"
+              onClick={() => {
+                if (window.location.pathname === "/") {
+                   // User is already on the landing page, scroll to the contact form
+                   document.getElementById("contact-form")?.scrollIntoView({ behavior: "smooth" });
+                } else {
+                  // Redirect to the landing page and scroll to the contact form
+                   window.location.href = "/#contact-form";
+                   }
+                 }}
+                >
+                Contact Me
+              </Button>
           </div>
         </div>
       )}
