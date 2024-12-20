@@ -111,7 +111,8 @@ export default function AboutPage() {
                         </p>
                         <br />
                         <p>
-                        I have a diverse clinical background, having worked in a variety of settings including community mental health, corrections, inpatient residential treatment centers for women and children, inpatient admissions for teens and adults, and, more recently, group practice.
+                        My clinical background spans a variety of settings, including inpatient mental health, residential substance abuse treatment, outpatient therapy, corrections, and community mental health. This diverse experience allows me to bring a well-rounded, client-centered approach to my work. Whether you’re working through life transitions, healing from trauma, or exploring identity, my goal is to help you feel seen, supported, and capable of moving forward with confidence.
+
                         </p>
                       </>
                     ),

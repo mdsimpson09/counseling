@@ -25,6 +25,7 @@ const Navbar = () => {
             <NavLink href="/about">About</NavLink>
             {/* <NavLink href="/pricing">Pricing</NavLink> */}
             <NavLink href="/faq">FAQs</NavLink>
+            <NavLink href="https://provider.growtherapy.com/provider/iku5bme8fc2h/marli-simpson">Schedule Appointment</NavLink>
             <Button
             className="bg-[#1C3142] hover:bg-[#7b8fa3] text-white"
               onClick={() => {
@@ -61,6 +62,7 @@ const Navbar = () => {
             <MobileNavLink href="/specialties">Specialties</MobileNavLink>
             <MobileNavLink href="/about">About</MobileNavLink>
             <MobileNavLink href="/faq">FAQs</MobileNavLink>
+            <MobileNavLink href="https://provider.growtherapy.com/provider/iku5bme8fc2h/marli-simpson">Schedule Appointment</MobileNavLink>
             <Button 
               className="w-full bg-[#91a5b9] hover:bg-[#7b8fa3] text-white mt-4"
               onClick={() => {

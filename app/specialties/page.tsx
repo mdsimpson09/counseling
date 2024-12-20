@@ -104,7 +104,7 @@ Whether you&apos;re in the early stages of recovery or have been navigating it f
               />
               <TherapyMethod
                 title="TF-CBT"
-                description="Trauma can deeply impact the way we think, feel, and interact with the world, often leaving us feeling stuck in distressing patterns. Trauma-Focused Cognitive Behavioral Therapy (TF-CBT) is an evidence-based approach designed to help individuals process and heal from trauma. It combines trauma-sensitive techniques with cognitive-behavioral strategies to address unhelpful thought patterns, reduce distress, and build emotional regulation skills. TF-CBT is particularly effective for children, adolescents, and their caregivers, offering a structured yet flexible framework to navigate recovery and rebuild a sense of safety."
+                description="Trauma can deeply impact the way we think, feel, and interact with the world, often leaving us feeling stuck in distressing patterns. Trauma-Focused Cognitive Behavioral Therapy (TF-CBT) is an evidence-based approach designed to help individuals process and heal from trauma. It combines trauma-sensitive techniques with cognitive-behavioral strategies to address unhelpful thought patterns, reduce distress, and build emotional regulation skills."
               />
               <TherapyMethod
                 title="Narrative Therapy"
