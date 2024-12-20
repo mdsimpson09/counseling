@@ -73,7 +73,7 @@ const Navbar = () => {
               Contact Me
             </Button> */}
               <Button
-            className="bg-[#1C3142] hover:bg-[#7b8fa3] text-white"
+            className="w-full bg-[#1C3142] hover:bg-[#7b8fa3] text-white"
               onClick={() => {
                 if (window.location.pathname === "/") {
                    // User is already on the landing page, scroll to the contact form
