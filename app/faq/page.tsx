@@ -44,10 +44,10 @@ export default function FAQPage() {
               answer="
               There isn’t a definitive answer to how long therapy will last, as everyone’s circumstances and goals are unique. Some clients work with me for a few months, while others continue for years. Together, we’ll regularly assess where you are in your healing journey and ensure that the work we’re doing continues to meet your needs."
             />
-            <FAQItem
+            {/* <FAQItem
               question="Is there a no-show policy?"
               answer="A no-show fee of $75 will be charged directly to the card on file for any missed appointments without prior notice."
-            />
+            /> */}
 
 
 
