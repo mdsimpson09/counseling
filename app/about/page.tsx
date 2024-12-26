@@ -33,7 +33,7 @@ export default function AboutPage(): React.ReactElement {
           <h1 className="text-6xl md:text-6xl font-serif text-white mb-6">
            Marli Simpson
           </h1>
-          <h3 className="text-4xl md:text-3xl font-serif text-white mb-6">LPC-MHSP</h3>
+          <h3 className="text-4xl md:text-3xl font-serif text-white mb-6">LPC-MHSP, CPC</h3>
           <p className="text-xl md:text-2xl text-gray-300 mb-4 font-light">
             &quot;Like Bob Marley, but not spelled the same&quot;
           </p>
