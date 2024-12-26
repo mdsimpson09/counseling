@@ -143,7 +143,7 @@ export default function SpecialtiesPage() {
               <Link href="/#contact" className="inline-block bg-transparent border-2 border-[#154458] text-[#154458] py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#154458] hover:text-white transition duration-300">
                 Schedule Consultation
               </Link>
-              <Link href="/services" className="inline-block bg-[#154458] text-white py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#4285A0] transition duration-300">
+              <Link href="/services" className="inline-block bg-transparent border-2 border-[#154458] text-[#154458] py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#154458] hover:text-white transition duration-300">
                 Our Services <ArrowRight className="inline-block ml-2 h-5 w-5" />
               </Link>
             </div>
