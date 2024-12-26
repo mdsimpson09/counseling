@@ -59,7 +59,7 @@ export default function Home() {
             </div>
             <div>
               <p className="text-lg text-[#154458] leading-relaxed mb-6">
-                I'm deeply committed to creating a supportive, affirming space where you feel truly seen, understood, and empowered to make meaningful changes in your life. My approach is grounded in respect, inclusivity, and genuine collaboration.
+                I&apos;m deeply committed to creating a supportive, affirming space where you feel truly seen, understood, and empowered to make meaningful changes in your life. My approach is grounded in respect, inclusivity, and genuine collaboration.
               </p>
               <p className="text-lg text-[#154458] leading-relaxed mb-6">
               While I bring clinical expertise to our work together, I deeply respect that you are the expert on your own life, values, and culture. I aim to meet you where you are. Therapy with me blends gentle directness with compassion, meeting you where you are while encouraging deeper exploration and growth.
@@ -88,7 +88,7 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-serif text-[#4285A0] mb-2">Free 15-Minute Consultation</h3>
-                <p className="text-[#154458] mb-4">A quick call to discuss your needs and see if we're a good fit.</p>
+                <p className="text-[#154458] mb-4">A quick call to discuss your needs and see if we&apos;re a good fit.</p>
                 <Link href="#contact" onClick={scrollToContact} className="inline-block bg-transparent border-2 border-[#154458] text-[#154458] py-2 px-4 rounded-md text-sm font-semibold hover:bg-[#154458] hover:text-white transition duration-300">
                   Schedule Now <ArrowRight className="inline-block ml-2 h-4 w-4" />
                 </Link>
