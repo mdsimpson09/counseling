@@ -86,7 +86,7 @@ const ContactForm = () => {
             id="name"
             name="name"
             value={formData.name}
-            className="mt-1 border-[#4285A0] focus:ring-[#4285A0] focus:border-[#4285A0]"
+            className="mt-1 border-[#154458] focus:ring-[#154458] focus:border-[#154458]"
             required
             onChange={(e) => setFormData((prev) => ({ ...prev, name: e.target.value }))}
           />
@@ -98,7 +98,7 @@ const ContactForm = () => {
             id="email"
             name="email"
             value={formData.email}
-            className="mt-1 border-[#4285A0] focus:ring-[#4285A0] focus:border-[#4285A0]"
+            className="mt-1 border-[#154458] focus:ring-[#154458] focus:border-[#154458]"
             required
             onChange={(e) => setFormData((prev) => ({ ...prev, email: e.target.value }))}
           />
@@ -110,7 +110,7 @@ const ContactForm = () => {
             id="phone"
             name="phone"
             value={formData.phone}
-            className="mt-1 border-[#4285A0] focus:ring-[#4285A0] focus:border-[#4285A0]"
+            className="mt-1 border-[#154458] focus:ring-[#154458] focus:border-[#154458]"
             required
             onChange={(e) => setFormData((prev) => ({ ...prev, phone: e.target.value }))}
           />
@@ -140,7 +140,7 @@ const ContactForm = () => {
           id="message"
           name="message"
           value={formData.message}
-          className="mt-1 border-[#4285A0] focus:ring-[#4285A0] focus:border-[#4285A0]"
+          className="mt-1 border-[#154458] focus:ring-[#154458] focus:border-[#154458]"
           rows={4}
           onChange={(e) => setFormData((prev) => ({ ...prev, message: e.target.value }))}
         />
@@ -149,7 +149,7 @@ const ContactForm = () => {
       <Button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-[#154458] hover:bg-[#4285A0] text-white py-3 text-lg"
+        className="w-full border-2 border-[#154458] bg-transparent hover:bg-[#154458] text-[#154458] px-8 hover:text-white py-3 text-lg font-semibold transition duration-300"
       >
         {isSubmitting ? 'Submitting...' : 'Schedule Your Consultation'}
       </Button>
