@@ -15,11 +15,11 @@ export default function FAQPage() {
             />
           </div>
           <div className="relative z-10 text-center px-4">
-            <h1 className="text-6xl md:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl md:text-6xl font-serif text-white mb-6">
               Frequently Asked Questions
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-4 font-light">
-              Find answers to common questions about therapy and our services
+              
             </p>
           </div>
         </section>
