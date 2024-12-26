@@ -148,16 +148,15 @@ export default function AboutPage(): React.ReactElement {
               </div>
             ))}
           </div>
-
           <div className="mt-20 text-center">
             <h2 className="text-4xl font-serif text-[#154458] mb-6">Ready to Start Your Journey?</h2>
             <p className="text-lg text-[#154458] mb-8">
               Healing is a journey, and showing up for yourself is an act of courage. You are capable of incredible transformation, and I&apos;m here to support you every step of the way.
             </p>
-            <div className="space-x-4">
+            <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Link 
                 href="/#contact" 
-                className="inline-block border-2 border-[#154458] text-[#154458] py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#154458] hover:text-white transition duration-300"
+                className="w-full sm:w-auto inline-block border-2 border-[#154458] text-[#154458] py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#154458] hover:text-white transition duration-300"
               >
                 Schedule a Consultation
               </Link>
@@ -165,7 +164,7 @@ export default function AboutPage(): React.ReactElement {
                 href="https://provider.growtherapy.com/provider/iku5bme8fc2h/marli-simpson" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block border-2 border-[#154458] text-[#154458] py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#154458] hover:text-white transition duration-300"
+                className="w-full sm:w-auto inline-block border-2 border-[#154458] text-[#154458] py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#154458] hover:text-white transition duration-300"
               >
                 Schedule an Appointment
               </a>
@@ -177,3 +176,4 @@ export default function AboutPage(): React.ReactElement {
     </div>
   )
 }
+
