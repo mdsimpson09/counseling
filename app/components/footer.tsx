@@ -31,14 +31,14 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="mailto:info@test.com" className="hover:text-[#4285A0] transition-colors">
-                  info@test.com
+                  msimpsoncounseling@gmail.com
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="tel:+15551234567" className="hover:text-[#4285A0] transition-colors">
                   (555) 123-4567
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
