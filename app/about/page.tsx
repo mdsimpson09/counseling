@@ -30,7 +30,7 @@ export default function AboutPage(): React.ReactElement {
           />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
-          <h1 className="text-5xl md:text-4xl font-serif text-white mb-6">
+          <h1 className="text-6xl md:text-6xl font-serif text-white mb-6">
            Marli Simpson
           </h1>
           <h3 className="text-4xl md:text-3xl font-serif text-white mb-6">LPC-MHSP</h3>
