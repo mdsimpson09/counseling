@@ -13,7 +13,7 @@ export default function ServicesPage() {
       <section className="relative h-[50vh] flex items-center justify-center bg-[#254257] mt-20">
         <div className="absolute inset-0">
           <Image
-            src="/krzysztof-kowalik-2pnozU26QBo-unsplash.jpg"
+            src="/hero-placeholder.jpg"
             alt="Hero background"
             fill
             className="object-cover opacity-20"
@@ -25,7 +25,7 @@ export default function ServicesPage() {
             Services
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-4 font-light">
-            "Do the best you can until you know better. Then when you know better, do better."
+            &quot;Do the best you can until you know better. Then when you know better, do better.&quot;
           </p>
           <p className="text-xl md:text-2xl text-gray-300 font-light">
             - Maya Angelou
@@ -37,7 +37,7 @@ export default function ServicesPage() {
       <main className="flex-grow">
         <SpecialtyItem
           title="Free Consultation"
-          description="A no-cost, 15-minute consultation to discuss your needs, answer questions, and determine if we&apos;re the right fit for your journey."
+          description="A no-cost, 15-minute consultation to discuss your needs, answer questions, and determine if we're the right fit for your journey."
           imageSrc="/paul-hanaoka.jpg"
           buttonText="Schedule Now"
           buttonLink="/#contact"
@@ -46,7 +46,7 @@ export default function ServicesPage() {
         />
         <SpecialtyItem
           title="Individual Therapy"
-          description="One-on-one therapy designed to help you navigate life&apos;s challenges, explore your emotions, and build tools for personal growth. Offered virtually."
+          description="One-on-one therapy designed to help you navigate life's challenges, explore your emotions, and build tools for personal growth. Offered virtually."
           imageSrc="/lauren-mancke.jpg"
           buttonText="Learn More"
           buttonLink="https://provider.growtherapy.com/provider/iku5bme8fc2h/marli-simpson"
@@ -55,10 +55,10 @@ export default function ServicesPage() {
         />
         <SpecialtyItem
           title="EcoTherapy"
-          description="Reconnect with nature to support emotional well-being and reduce stress. Available virtually. In-person sessions COMING SOON."
+          description="Reconnect with nature to support emotional well-being and reduce stress. Available virtually. In-person sessions coming soon."
           imageSrc="/lala-azizli.jpg"
           buttonText="Learn More"
-          buttonLink="/https://provider.growtherapy.com/provider/iku5bme8fc2h/marli-simpson"
+          buttonLink="/ecotherapy"
           reverse={false}
           bgColor="bg-white"
         />
