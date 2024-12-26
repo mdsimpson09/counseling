@@ -37,7 +37,7 @@ export default function ServicesPage() {
       <main className="flex-grow">
         <SpecialtyItem
           title="Free Consultation"
-          description="A no-cost, 15-minute consultation to discuss your needs, answer questions, and determine if we're the right fit for your journey."
+          description="A no-cost, 15-minute consultation to discuss your needs, answer questions, and determine if we&apos;re the right fit for your journey."
           imageSrc="/paul-hanaoka.jpg"
           buttonText="Schedule Now"
           buttonLink="/#contact"
@@ -46,7 +46,7 @@ export default function ServicesPage() {
         />
         <SpecialtyItem
           title="Individual Therapy"
-          description="One-on-one therapy designed to help you navigate life's challenges, explore your emotions, and build tools for personal growth. Offered virtually."
+          description="One-on-one therapy designed to help you navigate life&apos;s challenges, explore your emotions, and build tools for personal growth. Offered virtually."
           imageSrc="/lauren-mancke.jpg"
           buttonText="Learn More"
           buttonLink="https://provider.growtherapy.com/provider/iku5bme8fc2h/marli-simpson"
