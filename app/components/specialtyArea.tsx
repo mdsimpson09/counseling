@@ -20,21 +20,20 @@ import React from 'react'
 interface SpecialtyAreaProps {
   title: string
   description: React.ReactNode
-  bgColor?: string // Made optional since we'll use a default background
+  bgColor?: string
 }
 
 const SpecialtyArea: React.FC<SpecialtyAreaProps> = ({ 
   title, 
   description, 
-  bgColor = "bg-white" // Default to white background
+  bgColor = "bg-white"
 }) => {
   return (
-    <div className={`${bgColor} p-12 flex flex-col md:flex-row items-start`}>
-      <h3 className="text-3xl text-[#1C3142] font-light mb-4 md:mb-0 md:w-1/4 md:pr-8">{title}</h3>
-      <div className="text-base text-[#1C3142]/80 leading-relaxed space-y-4 md:w-3/4">{description}</div>
+    <div className={`${bgColor} p-12 pb-16 mb-8 flex flex-col md:flex-row items-start border-b border-[#E0E0E0]`}>
+      <h3 className="text-3xl text-[#4285A0] font-light mb-4 md:mb-0 md:w-1/4 md:pr-8">{title}</h3>
+      <div className="text-base text-[#1C3142] leading-relaxed space-y-4 md:w-3/4">{description}</div>
     </div>
   )
 }
 
 export default SpecialtyArea
-
