@@ -46,7 +46,7 @@ export default function Home() {
       {/* About Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl font-serif text-[#154458] mb-8 text-center">About Me</h2>
+          <h2 className="text-4xl font-serif text-[#154458] mb-8 text-center">Working with me</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Image
