@@ -13,7 +13,7 @@ export default function ServicesPage() {
       <section className="relative h-[50vh] flex items-center justify-center bg-[#254257] mt-20">
         <div className="absolute inset-0">
           <Image
-            src="/hero-placeholder.jpg"
+            src="/krzysztof-kowalik-2pnozU26QBo-unsplash.jpg"
             alt="Hero background"
             fill
             className="object-cover opacity-20"
