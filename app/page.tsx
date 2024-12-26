@@ -31,7 +31,7 @@ export default function Home() {
           />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
-          <h1 className="text-6xl md:text-5xl font-serif text-white mb-6">
+          <h1 className="text-6xl md:text-5xl sm:text-3xl font-serif text-white mb-6">
             Simpson Counseling Co.
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-12 font-light">
