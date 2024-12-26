@@ -36,9 +36,9 @@ export default function SpecialtiesPage() {
         {/* Specialty Areas Section */}
         <section className="py-20 bg-white">
           <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-4xl font-serif text-[#154458] mb-12 text-center">
+            {/* <h2 className="text-4xl font-serif text-[#154458] mb-12 text-center">
               Specialty Areas
-            </h2>
+            </h2> */}
 
             <div className="space-y-16">
               <div className="mb-16">
