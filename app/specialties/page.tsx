@@ -36,15 +36,11 @@ export default function SpecialtiesPage() {
         {/* Specialty Areas Section */}
         <section className="py-20 bg-white">
           <div className="max-w-4xl mx-auto px-4">
-            {/* <h2 className="text-4xl font-serif text-[#154458] mb-12 text-center">
-              Specialty Areas
-            </h2> */}
-
             <div className="space-y-16">
               <div className="mb-16">
                 <h3 className="text-3xl font-serif text-[#4285A0] mb-4 pb-2 border-b-2 border-[#4285A0]">LGBTQIA+</h3>
                 <p className="text-base text-[#1C3142] leading-relaxed">
-                  I strive to create a safe and inclusive space for LGBTQIA+ individuals and allies. It is my privilege to support you through life's stressors, identity and sexual exploration, processing experiences of discrimination or rejection, and navigating relationships. I also offer gender-affirming healthcare assessments and letters when needed. Every part of you is welcome here, and I am honored to celebrate your resilience and growth as you reconnect with your authentic self.
+                  I strive to create a safe and inclusive space for LGBTQIA+ individuals and allies. It is my privilege to support you through life&apos;s stressors, identity and sexual exploration, processing experiences of discrimination or rejection, and navigating relationships. I also offer gender-affirming healthcare assessments and letters when needed. Every part of you is welcome here, and I am honored to celebrate your resilience and growth as you reconnect with your authentic self.
                 </p>
               </div>
 
@@ -58,7 +54,7 @@ export default function SpecialtiesPage() {
               <div className="mb-16">
                 <h3 className="text-3xl font-serif text-[#4285A0] mb-4 pb-2 border-b-2 border-[#4285A0]">Neurodiversity</h3>
                 <p className="text-base text-[#1C3142] leading-relaxed">
-                  Neurodiversity is a broad term that encompasses the various ways people's brains function. Each brain is unique, and no two work exactly the same. Being neurodivergent means having a brain that operates differently from what is considered typical or neurotypical. While neurodivergence is not inherently negative, it can bring significant challenges and frustrations. It may feel as though everyone else has access to an unspoken rulebook for socializing and interacting that you were never given.
+                  Neurodiversity is a broad term that encompasses the various ways people&apos;s brains function. Each brain is unique, and no two work exactly the same. Being neurodivergent means having a brain that operates differently from what is considered typical or neurotypical. While neurodivergence is not inherently negative, it can bring significant challenges and frustrations. It may feel as though everyone else has access to an unspoken rulebook for socializing and interacting that you were never given.
                 </p>
                 <p className="text-base text-[#1C3142] leading-relaxed mt-4">
                   Through neurodivergent-affirming care, we focus on your strengths while addressing the unique challenges of navigating a world designed for neurotypical individuals. Therapy can support you in improving communication with yourself and others, all while embracing and celebrating your differences.
@@ -68,7 +64,7 @@ export default function SpecialtiesPage() {
               <div className="mb-16">
                 <h3 className="text-3xl font-serif text-[#4285A0] mb-4 pb-2 border-b-2 border-[#4285A0]">Recovery</h3>
                 <p className="text-base text-[#1C3142] leading-relaxed">
-                  Whether you're in the early stages of recovery or have been navigating it for some time, we will work together to address substance use and other addictive behaviors. Together, we'll focus on understanding what drives these behaviors, creating tools to manage challenges, and building a personalized plan to maintain stability and prevent or navigate relapse.
+                  Whether you&apos;re in the early stages of recovery or have been navigating it for some time, we will work together to address substance use and other addictive behaviors. Together, we&apos;ll focus on understanding what drives these behaviors, creating tools to manage challenges, and building a personalized plan to maintain stability and prevent or navigate relapse.
                 </p>
               </div>
 
@@ -89,14 +85,14 @@ export default function SpecialtiesPage() {
               <div className="mb-16">
                 <h3 className="text-3xl font-serif text-[#4285A0] mb-4 pb-2 border-b-2 border-[#4285A0]">Borderline Personality Disorder</h3>
                 <p className="text-base text-[#1C3142] leading-relaxed">
-                  Borderline Personality Disorder (BPD) can present significant challenges in managing emotions, maintaining relationships, and establishing a stable sense of self. My approach to BPD is compassionate and non-judgmental, focusing on helping you develop skills for emotional regulation, interpersonal effectiveness, and distress tolerance. I utilize evidence-based treatments such as Dialectical Behavior Therapy (DBT) to address the core symptoms of BPD. Together, we'll work on building a stronger sense of identity, improving relationships, and creating a life that feels more stable and fulfilling.
+                  Borderline Personality Disorder (BPD) can present significant challenges in managing emotions, maintaining relationships, and establishing a stable sense of self. My approach to BPD is compassionate and non-judgmental, focusing on helping you develop skills for emotional regulation, interpersonal effectiveness, and distress tolerance. I utilize evidence-based treatments such as Dialectical Behavior Therapy (DBT) to address the core symptoms of BPD. Together, we&apos;ll work on building a stronger sense of identity, improving relationships, and creating a life that feels more stable and fulfilling.
                 </p>
               </div>
 
               <div className="mb-16">
                 <h3 className="text-3xl font-serif text-[#4285A0] mb-4 pb-2 border-b-2 border-[#4285A0]">Anxiety and Mood</h3>
                 <p className="text-base text-[#1C3142] leading-relaxed">
-                  Managing the ups and downs of mood dysregulation can be overwhelming, and it's not something you can simply think your way out of. Whether you're navigating anxiety, depression, or a bipolar diagnosis, we work together to identify unhelpful thinking patterns, improve emotional regulation, and build acceptance for what lies outside your control.
+                  Managing the ups and downs of mood dysregulation can be overwhelming, and it&apos;s not something you can simply think your way out of. Whether you&apos;re navigating anxiety, depression, or a bipolar diagnosis, we work together to identify unhelpful thinking patterns, improve emotional regulation, and build acceptance for what lies outside your control.
                 </p>
               </div>
             </div>
@@ -120,10 +116,6 @@ export default function SpecialtiesPage() {
                   title: "ACT",
                   description: "Focusing on things beyond your control can drain your emotional and mental energy. Through Acceptance and Commitment Therapy (ACT), we work together to uncover unhelpful thought patterns that may be keeping you stuck in behaviors that once served you but no longer align with your goals. ACT helps you cultivate acceptance for what lies outside your influence while empowering you to take meaningful steps toward positive change in areas you can impact."
                 },
-                // {
-                //   title: "Narrative Therapy",
-                //   description: "The stories we tell ourselves about our experiences shape how we see ourselves and the world around us. Narrative Therapy empowers individuals to rewrite their stories, focusing on their strengths and resilience rather than solely on the trauma. By externalizing problems and exploring alternative narratives, this approach helps clients separate their identity from their experiences. Through collaborative storytelling, clients gain greater clarity, control, and meaning in their lives, enabling them to move forward with confidence and self-compassion."
-                // },
                 {
                   title: "DBT",
                   description: "When emotions feel overwhelming and difficult to manage, having practical tools can make a meaningful difference. Dialectical Behavior Therapy (DBT) is an evidence-based approach that combines mindfulness with skills for emotional regulation, distress tolerance, and interpersonal effectiveness. In DBT-focused sessions, we work together to develop healthier coping strategies, build emotional resilience, and navigate challenging situations with greater confidence and balance."
@@ -148,7 +140,7 @@ export default function SpecialtiesPage() {
             <h2 className="text-4xl font-serif text-[#154458] mb-8">Ready to Start Your Journey?</h2>
             <p className="text-lg text-[#154458] mb-12">Take the first step towards healing and growth. Schedule a consultation or learn more about our services.</p>
             <div className="flex justify-center space-x-6">
-              <Link href="/contact" className="inline-block bg-transparent border-2 border-[#154458] text-[#154458] py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#154458] hover:text-white transition duration-300">
+              <Link href="/#contact" className="inline-block bg-transparent border-2 border-[#154458] text-[#154458] py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#154458] hover:text-white transition duration-300">
                 Schedule Consultation
               </Link>
               <Link href="/services" className="inline-block bg-[#154458] text-white py-3 px-8 rounded-md text-lg font-semibold hover:bg-[#4285A0] transition duration-300">

@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex items-center">
-            <Link href="/" className="font-serif text-2xl text-[#2c4a63]">
+            <Link href="/" className="font-serif text-2xl text-[#154458]">
               Simpson Counseling
             </Link>
           </div>
@@ -23,30 +23,18 @@ const Navbar = () => {
             <NavLink href="/services">Services</NavLink>
             <NavLink href="/specialties">Specialties</NavLink>
             <NavLink href="/about">About</NavLink>
-            {/* <NavLink href="/pricing">Pricing</NavLink> */}
             <NavLink href="/faq">FAQs</NavLink>
             <NavLink href="https://provider.growtherapy.com/provider/iku5bme8fc2h/marli-simpson">Schedule Appointment</NavLink>
-            <Button
-            className="bg-[#1C3142] hover:bg-[#7b8fa3] text-white"
-              onClick={() => {
-                if (window.location.pathname === "/") {
-                   // User is already on the landing page, scroll to the contact form
-                   document.getElementById("contact-form")?.scrollIntoView({ behavior: "smooth" });
-                } else {
-                  // Redirect to the landing page and scroll to the contact form
-                   window.location.href = "/#contact-form";
-                   }
-                 }}
-                >
-                Contact Me
-              </Button>
+            <Link href="/#contact" className="inline-block bg-transparent border-2 border-[#154458] text-[#154458] py-2 px-4 rounded-md text-sm font-semibold hover:bg-[#154458] hover:text-white transition duration-300">
+              Contact Me
+            </Link>
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-[#2c4a63] hover:text-[#5a7894]"
+              className="text-[#154458] hover:text-[#4285A0]"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -63,29 +51,9 @@ const Navbar = () => {
             <MobileNavLink href="/about">About</MobileNavLink>
             <MobileNavLink href="/faq">FAQs</MobileNavLink>
             <MobileNavLink href="https://provider.growtherapy.com/provider/iku5bme8fc2h/marli-simpson">Schedule Appointment</MobileNavLink>
-            {/* <Button 
-              className="w-full bg-[#91a5b9] hover:bg-[#7b8fa3] text-white mt-4"
-              onClick={() => {
-                document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })
-                setIsOpen(false)
-              }}
-            >
+            <Link href="/#contact" className="block w-full bg-transparent border-2 border-[#154458] text-[#154458] py-2 px-4 rounded-md text-sm font-semibold hover:bg-[#154458] hover:text-white text-center transition duration-300 mt-4">
               Contact Me
-            </Button> */}
-              <Button
-            className="w-full bg-[#1C3142] hover:bg-[#7b8fa3] text-white"
-              onClick={() => {
-                if (window.location.pathname === "/") {
-                   // User is already on the landing page, scroll to the contact form
-                   document.getElementById("contact-form")?.scrollIntoView({ behavior: "smooth" });
-                } else {
-                  // Redirect to the landing page and scroll to the contact form
-                   window.location.href = "/#contact-form";
-                   }
-                 }}
-                >
-                Contact Me
-              </Button>
+            </Link>
           </div>
         </div>
       )}
@@ -96,20 +64,20 @@ const Navbar = () => {
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <Link
     href={href}
-    className="text-[#5a7894] hover:text-[#2c4a63] font-medium"
+    className="text-[#154458] hover:text-[#154458] font-medium relative group"
   >
     {children}
+    <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#F89B7C] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
   </Link>
 )
 
 const MobileNavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <Link
     href={href}
-    className="block px-3 py-2 text-[#5a7894] hover:text-[#2c4a63] font-medium"
+    className="block px-3 py-2 text-[#4285A0] hover:text-[#154458] font-medium"
   >
     {children}
   </Link>
 )
 
-export default Navbar
-
+export default Navbar;
