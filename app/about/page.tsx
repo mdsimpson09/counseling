@@ -76,7 +76,7 @@ export default function AboutPage(): React.ReactElement {
                 content: (
                   <>
                     <p className="text-lg text-[#154458] leading-relaxed">
-                      Born and raised in Indianapolis, I moved to Muncie for my studies. A random job application brought me to Nashville, which quickly stole my heart. My journey then took me to Fort Lauderdale for two years, and now I&apos;ve been calling Las Vegas home for over a year.
+                      Born and raised in Indianapolis, I moved to Muncie for my studies. A random job application brought me to Nashville, which quickly stole my heart. 
                     </p>
                     <p className="text-lg text-[#154458] leading-relaxed mt-4">
                       I&apos;m licensed to practice in both Tennessee and Nevada, allowing me to serve clients across these states.
